@@ -1,0 +1,6 @@
+For 2000 non-zero samples, randomly selected 100 users who had given some ratings to a sample of randomly selected 20 movies each.
+For low rank k approximation used Eckart-Young Theorem 
+Eckart-Young Theorem states that for any Ak,argmin(k<=r) where r is the rank of matrix A then the 2 norm error i.e. ||A-Ak|| is equal to the first singular_value(k+1) that we did not use.
+From the above,the low rank k value approximation for A2 matrix was obtained by storing the absolute minimum difference between ||A-Ak|| and singular_value(k+1) i.e. converges to 0 in a list and getting the minimum argument k corresponding to it.
+The minimum argument k is used to reconstruct the Ak matrix and RMSE error is obtained correspondingly.
+On random runs,the best low rank approx k was found to lie in the range of [10,100].

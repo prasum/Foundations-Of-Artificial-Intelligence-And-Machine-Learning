@@ -1,0 +1,8 @@
+MAP for baseline retrieval with BM25:  0.2662
+nDCG@20 for baseline retrieval with BM25: 0.5200
+
+MAP for retrieval using LETOR:  0.0847
+nDCG@20 for retrieval using LETOR: 0.2348
+
+Improved MAP: 0.3289
+Improved nDCG@20: 0.5851
